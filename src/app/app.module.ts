@@ -3,6 +3,7 @@ import { BrowserModule }  from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { FormsModule }   from '@angular/forms';
 import {HeroDetailComponent } from './hero-detail.component';
+import {HeroService} from './hero.service';
 @NgModule({
   imports: [
       BrowserModule,
@@ -12,6 +13,7 @@ import {HeroDetailComponent } from './hero-detail.component';
       AppComponent,
       HeroDetailComponent
   ],
+  providers: [HeroService],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
