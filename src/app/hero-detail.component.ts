@@ -26,4 +26,9 @@ export class HeroDetailComponent  {
     goBack(): void {
         window.history.back();
     }
+    save(): void {
+        this.heroService.update(this.hero)
+            .then(this.goBack);
+    }
+
 }
