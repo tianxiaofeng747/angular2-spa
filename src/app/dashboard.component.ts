@@ -13,6 +13,7 @@ import { Router } from '@angular/router';
 })
 export class DashboardComponent {
     heroes:Hero[]= [];
+    isShow:boolean = false;
     constructor(private heroService: HeroService,
                 private router: Router,
     ) { }
@@ -23,5 +24,10 @@ export class DashboardComponent {
     gotoDetail(hero: Hero): void {
         let link = ['/detail', hero.id];
         this.router.navigate(link);
+    }
+    ngOnDestroy() { console.log('ngOnDestroy')}
+
+    showTest(isShow:boolean):void{
+
     }
 }

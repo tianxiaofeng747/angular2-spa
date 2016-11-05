@@ -6,4 +6,9 @@
         </div>
     </div>
 </div>
+<div>
+    <input type="checkbox"  [(ngModel)]="isShow"/>点击我显示内容
+</div>
+
 <hero-search></hero-search>
+<hero-test [isShow]="isShow"> </hero-test>
