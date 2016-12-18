@@ -13,6 +13,8 @@ import { InMemoryWebApiModule } from 'angular2-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 import {HeroSearchComponent} from './hero-search.component';
 import {HeroTestComponent} from './hero-test-component';
+import {MissionControlComponent} from './components/mission.control.component';
+import {AstronautComponent} from './components/astronaut.component';
 import './rxjs-extensions';
 @NgModule({
   imports: [
@@ -28,7 +30,9 @@ import './rxjs-extensions';
       DashboardComponent,
       HeroesComponent,
       HeroSearchComponent,
-      HeroTestComponent
+      HeroTestComponent,
+      MissionControlComponent,
+      AstronautComponent,
   ],
   providers: [HeroService],
   bootstrap: [ AppComponent ]

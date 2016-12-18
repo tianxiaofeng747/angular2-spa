@@ -6,6 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import {DashboardComponent} from './dashboard.component';
 import { HeroesComponent }  from './heroes.component';
 import {HeroDetailComponent} from './hero-detail.component';
+import {MissionControlComponent} from './components/mission.control.component';
 const appRoutes: Routes = [
     {
         path: 'heroes',
@@ -23,6 +24,10 @@ const appRoutes: Routes = [
     {
         path:'detail/:id',
         component:HeroDetailComponent
+    },
+    {
+        path:'second',
+        component: MissionControlComponent
     }
 ];
 

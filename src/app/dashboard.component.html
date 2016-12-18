@@ -7,8 +7,20 @@
     </div>
 </div>
 <div>
-    <input type="checkbox"  [(ngModel)]="isShow"/>点击我显示内容
+    <input type="text"  [(ngModel)]="inputName"/>点击我显示内容
+
+    <h3>Agree: {{agreed}}, Disagree: {{disagreed}}</h3>
 </div>
 
-<hero-search></hero-search>
-<hero-test [isShow]="isShow"> </hero-test>
+<!--<button (click)="newMinor()">New minor version</button>
+<button (click)="newMajor()">New major version</button>-->
+<!--
+<hero-test [major]="major" [minor]="minor" (onVoted)="onVoted($event)"> </hero-test>-->
+
+<button (click)="start()">Start</button>
+<button (click)="stop()">Stop</button>
+<div class="seconds">{{seconds()}}</div>
+<hero-test ></hero-test>
+
+
+
