@@ -1,4 +1,33 @@
-<main>
-  <h1>Hello from Angular 2 App with Webpack</h1>
-  <img src="../../public/images/angular.png">
-</main>
+<h1>{{title}}</h1>
+<nav>
+    <a routerLink="/dashboard">Dashboard</a>
+    <a routerLink="/heroadd">heroadd</a>
+    <a routerLink="/herofrom">Heroes</a>
+    <a routerLink="contact" routerLinkActive="active">Contact</a>
+</nav>
+<router-outlet></router-outlet>
+<!--<h1 class="title">
+  {{title}}
+</h1>
+
+&lt;!&ndash;双向绑定&ndash;&gt;
+<p>
+  <a href="javascript:void(0)" (click)="add()">点击我</a>
+  <input type="text" [(ngModel)]="title">
+</p>
+
+
+<table class="table" [class.addClass]="badCurly">
+  <tr>
+    <td [attr.colspan]="1+1"></td>
+  </tr>
+</table>
+
+<button [style.color] = "isSpecial ? 'red': 'green'">Red</button>
+<button [style.background-color]="canSave ? 'cyan': 'grey'" >Save</button>-->
+
+<!--子组件-->
+<!--<hero [list]="list"  (deleteRequest)="deleteHero($event,id)"></hero>-->
+
+<!--form 组件测试-->
+<!--<hero-form></hero-form>-->
