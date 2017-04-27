@@ -1,0 +1,41 @@
+{
+
+  "code":"SUCCESS",
+  "message":"SUCCESS",
+  "data":{
+    "total":1,
+    "pageCount":1,
+    "pageSize":10,
+    "rows":[
+      {
+        "addrNo":"001",
+        "provinceCode":"030",
+        "provinceName":"浙江省",
+        "cityCode":"0571",
+        "cityName":"杭州市",
+        "districtCode":"001",
+        "districtName":"西湖区",
+        "address":"浙江杭州古墩路9901",
+        "receiveUser":"雷军",
+        "receivePhone":"18612082966",
+        "deliveryTime":"工作日派送",
+        "isDefault":1
+      },
+      {
+        "addrNo":"002",
+        "provinceCode":"030",
+        "provinceName":"浙江省",
+        "cityCode":"0571",
+        "cityName":"杭州市",
+        "districtCode":"001",
+        "districtName":"西湖区",
+        "address":"浙江杭州蒋村花园如意苑",
+        "receiveUser":"雷军",
+        "receivePhone":"18612082966",
+        "deliveryTime":"工作日派送",
+        "isDefault":1
+      }
+    ],
+    "pageIndex":1
+  }
+}

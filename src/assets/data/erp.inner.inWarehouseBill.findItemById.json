@@ -1,0 +1,23 @@
+{
+  "code":"SUCCESS",
+  "message":"查询成功",
+  "data":{
+    "id":5,
+    "billNo":"123123",
+    "goodsNo":"234234234",
+    "goodsName":"试剂盒",
+    "articleNo":"2232323",
+    "goodsSkuId":"342341232",
+    "goodsSkuAttr":"盒（50支）",
+    "price":"12.12",
+    "goodsNumber":34,
+    "amount":"12.22",
+    "certNo":"浙主09981号",
+    "senderNo":"dadfsfsf",
+    "senderName":"罗氏",
+    "produceBatchNo":"234234234",
+    "batchNo":"2342343",
+    "expiryTime":"2016-09-09",
+    "goodsNumber":"22"
+  }
+}

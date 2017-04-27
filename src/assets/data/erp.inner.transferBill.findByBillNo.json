@@ -1,0 +1,25 @@
+{
+  "code":"SUCCESS",
+  "message":"查询成功",
+  "data":{
+    "inWarehouseNo":"123123132",
+    "inWarehouseName":"1号仓库",
+    "outWarehouseNo":"123123132",
+    "outWarehouseName":"1号仓库",
+    "billNo":"123123",
+    "billStatus":"1",
+    "createName":"张三",
+    "createTime":"2018-09-09",
+    "auditName":"李三",
+    "auditTime":"2018-09-09",
+    "audit2Name":"李三",
+    "audit2Time":"2018-09-09",
+    "amount":"200666.00",
+    "goodsNumber":11,
+    "employeeNo":"121212",
+    "employeeName":"王三",
+    "deptNo":"asasas",
+    "deptName":"调拨部",
+    "comment":"备注"
+  }
+}

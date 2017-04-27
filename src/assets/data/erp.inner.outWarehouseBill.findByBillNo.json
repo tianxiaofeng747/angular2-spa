@@ -1,0 +1,26 @@
+{
+  "code":"SUCCESS",
+  "message":"查询成功",
+  "data":{
+    "warehouseNo":"123123132",
+    "warehouseName":"1号仓库",
+    "billNo":"123123出库单",
+    "billStatus":"1",
+    "createName":"张三",
+    "createTime":"2018-09-09",
+    "auditName":"李三",
+    "auditTime":"2018-09-09",
+    "amount":"200666.00",
+    "goodsNumber":11,
+    "employeeNo":"121212",
+    "employeeName":"王三",
+    "deptNo":15,
+    "deptName":"出库部",
+    "addressNo":"asasas",
+    "address":"aaaa",
+    "receiverNo":"asasas",
+    "receiverName":"aaaa",
+    "comment":"备注"
+
+  }
+}

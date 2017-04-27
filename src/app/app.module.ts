@@ -4,28 +4,26 @@ import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 
 
-import {HeroFormComponent} from './component/hero-form/hero-form.component';
 import {AppComponent} from './app.component';
 import {HeroComponent} from './component/hero.component';
 import {AppRoutingModule} from './app-routing.module';
-import { HeroDetailComponentComponent } from './component/hero-detail-component/hero-detail-component.component';
-import { HeroSonComponent } from './component/hero-son/hero-son.component';
-import { HeroSon2Component } from './component/hero-son2/hero-son2.component';
 import { HeroListComponent } from './component/hero-list/hero-list.component';
 import { UserService }    from './service/user.service';
 import {Api} from './service/api';
 
 import { ContactModule }      from './contact/contact.module.3';
+import { AuthComponent } from './component/auth/auth.component';
+import { DashboardComponent } from './component/dashboard/dashboard.component';
+import { HeroDetailComponent } from './component/hero-detail/hero-detail.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         HeroComponent,
-        HeroFormComponent,
-        HeroDetailComponentComponent,
-        HeroSonComponent,
-        HeroSon2Component,
-        HeroListComponent
+        HeroListComponent,
+        AuthComponent,
+        DashboardComponent,
+        HeroDetailComponent
     ],
     imports: [
         BrowserModule,

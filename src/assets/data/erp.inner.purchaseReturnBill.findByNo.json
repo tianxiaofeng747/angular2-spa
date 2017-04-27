@@ -1,0 +1,24 @@
+{
+  "code":"SUCCESS",
+  "message":"查询成功",
+  "data":{
+    "warehouseNo":"123123132",
+    "warehouseName":"1号仓库",
+    "billNo":"123123",
+    "billStatus":"1",
+    "createName":"张三",
+    "createTime":"2018-09-09",
+    "auditName":"李三",
+    "auditTime":"2018-09-09",
+    "amount":"200666.00",
+    "returnPersonNo":"121212",
+    "returnPersonName":"王三",
+    "returnDeptId":23,
+    "returnDeptName":"采购部",
+    "supplierNo":"2223232",
+    "supplierName":"海信集团",
+    "returnTime":"2016-09-09",
+    "comment":"备注"
+
+  }
+}

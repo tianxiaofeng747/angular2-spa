@@ -1,0 +1,20 @@
+{
+  "code":"SUCCESS",
+  "message":"查询成功",
+  "data":{
+    "pageIndex":1,
+    "pageSize":10,
+    "pageCount":2,
+    "total":2,
+    "rows":[
+      {
+        "billNo":"return00001",
+        "sourceBillNo":"12222222",
+        "warehouseName":"一号仓",
+        "receiverName":"收货单位",
+        "createTime":"制单时间",
+        "enterpriseName":"单据状态"
+      }
+    ]
+  }
+}

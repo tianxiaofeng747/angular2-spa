@@ -1,0 +1,62 @@
+
+{
+  "message": "SUCCESS",
+  "data": [
+    {
+      "id": "1",
+      "deptName": "迪安基因b",
+      "renshu" : "2",
+      "isLeaf": false,
+      "state": true,
+      "children": [
+        {
+          "id": 10,
+          "deptName":"电商事业部",
+          "parentId": 1,
+          "text": "电商事业部",
+          "isLeaf": true,
+          "children":[
+            {
+              "id": 12,
+              "deptName":"其他部门",
+              "parentId": 10,
+              "text": "电商事业部",
+              "isLeaf": true
+            },
+            {
+              "id": 13,
+              "deptName":"基础信息",
+              "parentId": 10,
+              "text": "电商事业部",
+              "isLeaf": true
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "deptName":"电商事业部",
+          "parentId": 0,
+          "text": "电商事业部",
+          "isLeaf": true,
+          "children":[
+            {
+              "id": 12,
+              "deptName":"其他部门",
+              "parentId": 0,
+              "text": "电商事业部",
+              "isLeaf": true
+            },
+            {
+              "id": 13,
+              "deptName":"基础信息",
+              "parentId": 0,
+              "text": "电商事业部",
+              "isLeaf": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "code": "SUCCESS"
+}

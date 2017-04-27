@@ -1,0 +1,25 @@
+{
+  "message":"SUCCESS",
+  "data":{
+    "enterpriseNo":"6017401515",
+    "enterpriseStatus":"audited",
+    "enterpriseAuditStatus":"audit_success",
+    "enterpriseName":"yucxing1的公司",
+    "clientId":"fb5e41269ef94e1d9aef16eab9c1dd9c",
+    "userType":"2",
+    "loginAccount":"yucxing1",
+    "id":102416,
+    "authedEnterpriseMaps":{
+      "6017401515":"yucxing1的公司"
+    },
+    "token":"528cec5e8204415b34a5c6d83abec0af",
+    "appRoles":{
+      "YERP_企业管理员":"云erp系统-俞晨测试"
+    },
+    "userNo":"501710203426",
+    "userName":"yucxing1",
+    "isMaster":true,
+    "enterpriseLogo":"s1/M00/25/3A/rB4r9FjmKsmAVgdnAAAGHgvNk7E992.jpg"
+  },
+  "code":"SUCCESS"
+}

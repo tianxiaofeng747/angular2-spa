@@ -1,0 +1,15 @@
+{
+  "code":"SUCCESS",
+  "message":"查询成功",
+  "data":
+  {
+    "billNo":"1111111111",
+    "billStatus":1,
+    "createNo": "001",
+    "createName": "张三",
+    "warehouseName": "三号仓库",
+    "createTime":"2017-01-01",
+    "auditName":"李四",
+    "auditTime": "2017-01-02"
+  }
+}

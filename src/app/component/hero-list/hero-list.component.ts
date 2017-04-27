@@ -20,7 +20,7 @@ export class HeroListComponent implements OnInit {
   getList () {
       let self = this;
       this.$api.post({
-          url: 'assets/data/base.data.open.brandAPI.findPage.json',
+          url: 'base.data.open.brandAPI.findPage',
           param:{
               id: 2,
               name:'22'

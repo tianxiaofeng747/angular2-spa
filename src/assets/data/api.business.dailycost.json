@@ -1,0 +1,141 @@
+{
+  "code": 0,
+  "message": "",
+  "data": [
+    {
+      "id": 3665,
+      "schoolid": 407,
+      "semesterid": 2433,
+      "gradeid": 374,
+      "classid": 4175,
+      "title": "\u73ed\u7ea7\u52a8\u6001\u7684\u9644\u4ef6",
+      "content": "test<img src=\"http:\/\/pic0.haoyuyuan.com\/2016\/01\/18\/btvtk5voydyptzs8a3hwpar2ivlmkf8t.png!medium.640\" _src=\"http:\/\/pic0.haoyuyuan.com\/2016\/01\/18\/btvtk5voydyptzs8a3hwpar2ivlmkf8t.png!medium.640\"\/><!--umeditor-->",
+      "publishtime": 1453083434,
+      "publishid": 967785,
+      "config": [
+        {
+          "name": "student-5.xls",
+          "url": "http:\/\/asset0.haoyuyuan.com\/2016\/01\/18\/h03p3shjw87cpud9x9o46ycbboec34co.xls",
+          "$$hashKey": "06S"
+        }
+      ],
+      "status": 0,
+      "createtime": 1453083434,
+      "lastoperate": 1453083464,
+      "creator": "s0407",
+      "lastoperator": "s0407",
+      "class": {
+        "name": "\u6000\u8fdc\u5c0f\u5b66\u4e8c(1)\u73ed"
+      },
+      "grade": {
+        "name": "\u4e00\u5e74\u7ea7"
+      },
+      "publish": {
+        "schoolid": 407,
+        "typeid": 2,
+        "uid": 967785,
+        "username": "s0407",
+        "nickname": "s0407",
+        "realname": "\u5b66\u6821\u7ba1\u7406\u5458",
+        "email": "",
+        "mobile": "",
+        "sex": 0,
+        "status": 0,
+        "avatar": "",
+        "lastloginip": "",
+        "lastlogin": 0,
+        "createip": "10.168.0.7",
+        "lastip": "0",
+        "lastpasswordtime": 0,
+        "createtime": 1379838611
+      }
+    },
+    {
+      "id": 2663,
+      "schoolid": 407,
+      "semesterid": 2433,
+      "gradeid": 376,
+      "classid": 27716,
+      "title": "ces",
+      "content": "<p>&nbsp;ce<br\/><\/p>",
+      "publishtime": 1448245939,
+      "publishid": 967791,
+      "config": [
+        {
+          "name": "9\u670829\u65e5\u5fae\u4fe1\u4e0a\u7ebf\u5185\u5bb9.doc",
+          "url": "http:\/\/asset0.haoyuyuan.com\/2015\/11\/26\/mpv14zzgl5a20zzriqbqxmkt8fr9p6xk.doc",
+          "$$hashKey": "06V"
+        }
+      ],
+      "status": 0,
+      "createtime": 1448245939,
+      "lastoperate": 1448513472,
+      "creator": "hws_90bd7c56",
+      "lastoperator": "hws_90bd7c56",
+      "class": null,
+      "grade": null,
+      "publish": null
+    },
+    {
+      "id": 1416,
+      "schoolid": 407,
+      "semesterid": 2433,
+      "gradeid": 374,
+      "classid": 25228,
+      "title": "\u6492\u5b50",
+      "content": "\u65af\u8482\u82ac\u5730\u65b9\u5012\u8428\u623f\u8d37\u53d1\u653e\u7684<!--umeditor-->",
+      "publishtime": 1442366563,
+      "publishid": 967791,
+      "config": [
+        {
+          "name": "\u56fe\u7247111.png",
+          "url": "http:\/\/pic0.haoyuyuan.com\/2015\/09\/16\/ae4625bf59cf3f943b07ec3b3cb21a99.png",
+          "$$hashKey": "5CG"
+        }
+      ],
+      "status": 0,
+      "createtime": 1442366563,
+      "lastoperate": 1442366883,
+      "creator": "hws_90bd7c56",
+      "lastoperator": "hws_90bd7c56",
+      "class": null,
+      "grade": {
+        "name": "\u4e00\u5e74\u7ea7"
+      },
+      "publish": null
+    },
+    {
+      "id": 1292,
+      "schoolid": 407,
+      "semesterid": 2433,
+      "gradeid": 375,
+      "classid": 25019,
+      "title": "111",
+      "content": "<p>111111<\/p>",
+      "publishtime": 1437101866,
+      "publishid": 967791,
+      "config": [
+        {
+          "name": "11.jpg",
+          "url": "http:\/\/pic0.haoyuyuan.com\/2015\/08\/26\/52cabd30d09f9339f6ff829411a5808c.jpg",
+          "$$hashKey": "045"
+        }
+      ],
+      "status": 0,
+      "createtime": 1437101866,
+      "lastoperate": 1441765532,
+      "creator": "hws_90bd7c56",
+      "lastoperator": "hws_90bd7c56",
+      "class": null,
+      "grade": {
+        "name": "\u4e8c\u5e74\u7ea7"
+      },
+      "publish": null
+    }
+  ],
+  "extra": {
+    "page": 1,
+    "pagesize": 15,
+    "total": 20
+  }
+}

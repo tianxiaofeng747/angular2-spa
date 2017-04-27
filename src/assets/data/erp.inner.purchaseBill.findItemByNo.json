@@ -1,0 +1,36 @@
+{
+  "code":"SUCCESS",
+  "message":"查询成功",
+  "data":{
+    "total":2550,
+    "pageSize":50,
+    "pageIndex":1,
+    "pageCount":59,
+    "rows":[
+      {
+        "id":5,
+        "billNo":"123123",
+        "goodsNo":"234234234",
+        "goodsName":"试剂盒",
+        "articleNo":"2232323",
+        "goodsSkuId":"342341232",
+        "goodsSkuAttr":"盒（50支）",
+        "price":"12.12",
+        "goodsNumber":34,
+        "amount":"12.22"
+      },
+      {
+        "id":6,
+        "billNo":"123123",
+        "goodsNo":"234234234",
+        "goodsName":"试剂盒",
+        "articleNo":"2232323",
+        "goodsSkuId":"342341232",
+        "goodsSkuAttr":"盒（50支）",
+        "price":"12.12",
+        "goodsNumber":34,
+        "amount":"12.22"
+      }
+    ]
+  }
+}

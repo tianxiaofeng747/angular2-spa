@@ -1,0 +1,58 @@
+[
+  {
+    "attr": "型号",
+    "checkValues": [
+      {
+        "value": "R1",
+        "img": "http:123.png"
+      },
+      {
+        "value": "R2",
+        "img": "http:123.png"
+      },
+      {
+        "value": "R3",
+        "img": ""
+      }
+    ]
+  },
+  {
+    "attr": "规格",
+    "checkValues": [
+      {
+        "value": "20ML",
+        "img": "http:123.png"
+      },
+      {
+        "value": "50ML",
+        "img": ""
+      },
+      {
+        "value": "80ML",
+        "img": ""
+      }
+    ]
+  },
+  {
+    "attr": "包装",
+    "checkValues": [
+      {
+        "value": "盒",
+        "img": "http:123.png"
+      }
+    ]
+  },
+  {
+    "attr_ware": "仓库",
+    "checkValues": [
+      {
+        "id": "111",
+        "value": "华南仓库"
+      },
+      {
+        "id": "222",
+        "value": "华中仓库"
+      }
+    ]
+  }
+]

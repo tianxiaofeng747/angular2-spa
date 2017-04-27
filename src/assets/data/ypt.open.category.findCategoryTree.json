@@ -1,0 +1,55 @@
+{
+  "message": "SUCCESS",
+  "data": [
+    {
+      "id": "0",
+      "text": "全部",
+      "isLeaf": false,
+      "state": true,
+      "children": [
+        {
+          "id": 6,
+          "parentId": 0,
+          "text": "第2222级分类",
+          "level": 1,
+          "sort": 4,
+          "isLeaf": true,
+          "name": "第2222级分类",
+          "goodsCount": "10"
+        },
+        {
+          "id": 7,
+          "parentId": 0,
+          "text": "第1级分类",
+          "level": 1,
+          "sort": 5,
+          "isLeaf": true,
+          "name": "第1级分类",
+          "goodsCount": "10"
+        },
+        {
+          "id": 8,
+          "parentId": 0,
+          "text": "第2级分类",
+          "level": 1,
+          "sort": 6,
+          "isLeaf": true,
+          "name": "第2级分类",
+          "goodsCount": "10"
+        },
+        {
+          "id": 10,
+          "parentId": 0,
+          "text": "第一级分类",
+          "level": 2,
+          "sort": 7,
+          "remark": "kkkkkkkkkkkkkk",
+          "isLeaf": true,
+          "name": "第一级分类",
+          "goodsCount": "10"
+        }
+      ]
+    }
+  ],
+  "code": "SUCCESS"
+}

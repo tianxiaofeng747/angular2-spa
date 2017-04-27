@@ -1,0 +1,28 @@
+{
+  "code":"SUCCESS",
+  "message":"查询成功",
+  "data":{
+    "pageIndex":1,
+    "pageSize":10,
+    "pageCount":2,
+    "total":21,
+    "rows":
+    [
+      {
+        "goodsNo":"342341232",
+        "goodsName":"甲型流感病毒抗原检测试剂盒国食药监械（进）字2012第2401388号",
+        "articleNo":"5241234234",
+        "goodsSkuId":"342341232-1",
+        "goodsSkuAttr":"型号：50T  规格：20ml 包装：盒（50支）",
+        "startNumber":"100",
+        "endNumber":"500",
+        "inNumber":"1000",
+        "outNumber":"600",
+        "lossNumber":"5",
+        "profitNumber":"5",
+        "wasteNumber":"5",
+        "adjustNumber":"5"
+      }
+    ]
+  }
+}
