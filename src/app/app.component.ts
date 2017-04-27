@@ -1,21 +1,28 @@
-/**
- * Created by smallKugua on 2016/9/25.
- */
+import { Component } from '@angular/core';
 
-import {Component} from '@angular/core';
 @Component({
-    selector: 'my-app',
-    template: `
-    <h1>{{title}}</h1>
-    <nav>
-        <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
-        <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-    </nav>
-    <router-outlet></router-outlet>
- 
-  `,
-    styleUrls:['./app.component.css']
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.less']
 })
 export class AppComponent {
-    title = 'Tour of Heroes';
+  title = 'app works! new data my app';
+  badCurly = 'addClass';
+  list: Array<Object> = [{
+    name: 'xiao',
+    id: 1
+  }, {
+    name: 'zhao',
+    id: 2
+  }];
+  add = function(){
+    this.list.push({
+      id : 3,
+      name : 'add 0' 
+    })
+  }
+  //子组件触发事件调用父函数
+  deleteHero = function(){
+    console.log(arguments);
+  }
 }

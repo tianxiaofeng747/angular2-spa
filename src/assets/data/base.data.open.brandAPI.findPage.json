@@ -1,0 +1,20 @@
+{
+  "code":"SUCCESS",
+  "message":"查询成功",
+  "data":{
+    "rows":[
+      {
+        "brandNo":"100001",
+        "brandName":"飞利浦",
+        "brandNameEn":"feilpu",
+        "brandLogo":"/lsdf.jpg"
+      },
+      {
+        "brandNo":"100002",
+        "brandName":"菲克",
+        "brandNameEn":"feilpu",
+        "brandLogo":"/lsdf.jpg"
+      }
+    ]
+  }
+}
