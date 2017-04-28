@@ -9,7 +9,8 @@
         <span [innerHTML]="item?.name"></span>
         <button class="btn" on-click="delete(item,'33')">删除</button>
     </li>
-</ul>为了提高性能， 可以使用追踪函数
+</ul>
+为了提高性能， 可以使用追踪函数
 <pre>
     trackBy:trackByHeroes
 </pre><p>
@@ -22,9 +23,5 @@
 
 <h2>嵌套路由</h2>
 
-<ul class="nav">
-    <li><a routerLink="./test01">子路由01</a></li>
-    <li><a routerLink="./test02">子路由02</a></li>
-</ul>
 <button class="btn" on-click="gotoUrl()">跳转到其他路由</button>
-<router-outlet></router-outlet>
+

@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {ActivatedRoute, Params} from '@angular/router';
+import {ActivatedRoute, Params,Router} from '@angular/router';
 import {Api} from "../../service/api";
 
 @Component({
@@ -10,7 +10,7 @@ import {Api} from "../../service/api";
 export class HeroDetailComponent implements OnInit {
 
 
-    constructor(private route: ActivatedRoute,private $api : Api) {
+    constructor(private route: ActivatedRoute,private $api : Api, private router:Router) {
     }
 
     ngOnInit() {
@@ -28,5 +28,10 @@ export class HeroDetailComponent implements OnInit {
             this.detail = data;
         });
     }
-
+    goBack(){
+        //绝对路由
+        //this.router.navigateByUrl('dashboard/list');
+        //相对路由的写法
+        this.router.navigate(['../../list'], { relativeTo: this.route });
+    }
 }

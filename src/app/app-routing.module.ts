@@ -1,6 +1,6 @@
 import {NgModule}             from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {HeroComponent}      from './component/hero.component';
+import {HeroComponent}      from './component/hero/hero.component';
 import {DashboardComponent}      from './component/dashboard/dashboard.component';
 
 import {HeroListComponent} from './component/hero-list/hero-list.component';

@@ -13,21 +13,38 @@ export class HeroListComponent implements OnInit {
   constructor(private $api:Api) {
   }
   list:Array<Object> = [];
+  detail:Object = {
+      
+  };
 
+  //实验async的异步调用
   ngOnInit() {
-      this.getList();
+      //this.getList();
+      let self = this;
+      this.getAll().then((result) =>{
+          this.list = this.list.concat(result[0].rows);
+          this.detail = result[1];
+    
+      });
   }
   getList () {
-      let self = this;
-      this.$api.post({
+      return this.$api.post({
           url: 'base.data.open.brandAPI.findPage',
           param:{
               id: 2,
               name:'22'
           }
-      }).then(function (result){
-          self.list = self.list.concat(result.rows);
+       })
+  }
+  getList2 (){
+      return this.$api.post({
+          url:'erp.inner.inWarehouseBill.findItemById'
       });
+  }
+  async getAll (){
+      var list = await this.getList();
+      var list2 =  await this.getList2();
+      return [list,list2]
   }
 
 }

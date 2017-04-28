@@ -5,7 +5,7 @@ import {HttpModule} from '@angular/http';
 
 
 import {AppComponent} from './app.component';
-import {HeroComponent} from './component/hero.component';
+import {HeroComponent} from './component/hero/hero.component';
 import {AppRoutingModule} from './app-routing.module';
 import { HeroListComponent } from './component/hero-list/hero-list.component';
 import { UserService }    from './service/user.service';
