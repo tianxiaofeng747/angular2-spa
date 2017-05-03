@@ -1,0 +1,102 @@
+{
+  "message": "SUCCESS",
+  "data": {
+    "total": 152,
+    "pageCount": 1,
+    "pageSize": 15,
+    "rows": [
+      {
+        "deptName": "测试部门",
+        "createTime": "2016-12-16 15:44:59",
+        "operatorNo": "501622446704",
+        "id": 497,
+        "userName": "aaaa",
+        "gender": "male",
+        "modifyTime": "2016-12-16 15:44:59",
+        "jobTitle": "测试职位",
+        "enterpriseNo": "2000000",
+        "mobilePhone": "15157111140",
+        "operatorName": "超级管理员",
+        "deptId": "1",
+        "userNo": "2"
+      },
+      {
+        "deptName": "测试部门",
+        "createTime": "2016-12-16 15:44:59",
+        "operatorNo": "501622446704",
+        "id": 497,
+        "userName": "gwehw",
+        "gender": "male",
+        "modifyTime": "2016-12-16 15:44:59",
+        "jobTitle": "测试职位",
+        "enterpriseNo": "2000000",
+        "mobilePhone": "15157111140",
+        "operatorName": "超级管理员",
+        "deptId": "1",
+        "userNo": "2"
+      },
+      {
+        "deptName": "测试部门",
+        "createTime": "2016-12-16 15:44:59",
+        "operatorNo": "501622446704",
+        "id": 497,
+        "userName": "gsgsd",
+        "gender": "male",
+        "modifyTime": "2016-12-16 15:44:59",
+        "jobTitle": "测试职位",
+        "enterpriseNo": "2000000",
+        "mobilePhone": "15157111140",
+        "operatorName": "超级管理员",
+        "deptId": "1",
+        "userNo": "2"
+      },
+      {
+        "deptName": "测试部门",
+        "createTime": "2016-12-16 15:44:59",
+        "operatorNo": "501622446704",
+        "id": 497,
+        "userName": "gsa",
+        "gender": "male",
+        "modifyTime": "2016-12-16 15:44:59",
+        "jobTitle": "测试职位",
+        "enterpriseNo": "2000000",
+        "mobilePhone": "15157111140",
+        "operatorName": "超级管理员",
+        "deptId": "1",
+        "userNo": "2"
+      },
+      {
+        "deptName": "测试部门",
+        "createTime": "2016-12-16 15:44:59",
+        "operatorNo": "501622446704",
+        "id": 497,
+        "userName": "23",
+        "gender": "male",
+        "modifyTime": "2016-12-16 15:44:59",
+        "jobTitle": "测试职位",
+        "enterpriseNo": "2000000",
+        "mobilePhone": "15157111140",
+        "operatorName": "超级管理员",
+        "deptId": "1",
+        "userNo": "2"
+      },
+      {
+        "deptName": "测试部门",
+        "createTime": "2016-12-16 15:44:59",
+        "operatorNo": "501622446704",
+        "id": 497,
+        "userName": "bs",
+        "gender": "male",
+        "modifyTime": "2016-12-16 15:44:59",
+        "jobTitle": "测试职位",
+        "enterpriseNo": "2000000",
+        "mobilePhone": "15157111140",
+        "operatorName": "超级管理员",
+        "deptId": "1",
+        "userNo": "4"
+      }
+    ],
+    "pageIndex": 1
+  },
+  "code": "SUCCESS"
+}

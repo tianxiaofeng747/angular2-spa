@@ -1,0 +1,89 @@
+{
+  "code":"SUCCESS",
+  "message":"查询成功",
+  "data":{
+    "warehouseNo":"123123132",
+    "warehouseName":"1号仓库",
+    "warehouseType":"owner",
+    "warehouseTypeName":"自有库",
+    "linkMan":"路人甲",
+    "linkTelephone":"15028378767",
+    "provinceCode":"3010",
+    "provinceName":"浙江省",
+    "cityCode":"301020",
+    "cityName":"杭州市",
+    "districtCode":"30102010",
+    "districtName":"西湖区",
+    "address":"三墩镇石祥路200号",
+    "areas": [
+      {
+        "areaCode": "110000",
+        "areaName": "北京市"
+      },
+      {
+        "areaCode": "110100",
+        "areaName": "北京市市辖区"
+      },
+      {
+        "areaCode": "110114",
+        "areaName": "昌平区"
+      },
+      {
+        "areaCode": "110115",
+        "areaName": "大兴区"
+      },
+      {
+        "areaCode": "450000",
+        "areaName": "广西省"
+      },
+      {
+        "areaCode": "450300",
+        "areaName": "桂林市"
+      },
+      {
+        "areaCode": "450302",
+        "areaName": "秀峰区"
+      },
+      {
+        "areaCode": "450326",
+        "areaName": "永福县"
+      },
+      {
+        "areaCode": "450500",
+        "areaName": "北海市"
+      },
+      {
+        "areaCode": "450502",
+        "areaName": "海城区"
+      },
+      {
+        "areaCode": "450600",
+        "areaName": "防城港市"
+      },
+      {
+        "areaCode": "450602",
+        "areaName": "港口区"
+      },
+      {
+        "areaCode": "630000",
+        "areaName": "青海省"
+      },
+      {
+        "areaCode": "632600",
+        "areaName": "果洛藏族自治州"
+      },
+      {
+        "areaCode": "632621",
+        "areaName": "玛沁县"
+      },
+      {
+        "areaCode": "632700",
+        "areaName": "玉树藏族自治州"
+      },
+      {
+        "areaCode": "632701",
+        "areaName": "玉树市"
+      }
+    ]
+  }
+}

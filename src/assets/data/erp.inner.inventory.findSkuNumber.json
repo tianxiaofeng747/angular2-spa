@@ -1,0 +1,28 @@
+{
+  "code": "SUCCESS",
+  "message": "查询成功",
+  "data": [
+    {
+      "goodsNo": "wh000001",
+      "goodsName": "甲型流感病毒抗原检测试剂盒国食药监械（进）字2012第2401388号",
+      "articleNo": "5241234234",
+      "goodsSkuId": "342341232-1",
+      "goodsSkuAttr": "型号：50T  规格：20ml 包装：盒（50支）",
+      "price": 100,
+      "goodsNumber": 100,
+      "availableGoodsNumber": 100,
+      "lockNum": 0
+    },
+    {
+      "goodsNo": "wh000001",
+      "goodsName": "sfdsdg（we）但是速度速度",
+      "articleNo": "5241234234",
+      "goodsSkuId": "342341232-1",
+      "goodsSkuAttr": "型号：50T  规格：20ml 包装：盒（50支）",
+      "price": 23,
+      "goodsNumber": 100,
+      "availableGoodsNumber": 100,
+      "lockNum": 0
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "message": "SUCCESS",
+  "data": {
+    "total": 1,
+    "pageCount": 1,
+    "pageSize": 10,
+    "rows": [
+      {
+        "createTime": "2016-12-31 15:01:46",
+        "dataSource": "YPT",
+        "supplierName": "11321",
+        "linkProvinceCode": "4",
+        "supplierNo": "11",
+        "provinceCode": "4",
+        "cityName": "7",
+        "cityCode": "6",
+        "provinceName": "5",
+        "linkProvinceName": "5",
+        "id": 10,
+        "modifyName": "开发测试",
+        "linkPerson": "11",
+        "modifyTime": "2016-12-31 15:01:46",
+        "enterpriseNo": "",
+        "linkDistrictCode": "8",
+        "businessScope": "333",
+        "linkTelphone": "12",
+        "linkCityCode": "6",
+        "enterpriseName": "",
+        "postCode": "14",
+        "dataSourceName": "",
+        "linkCityName": "7",
+        "deleted": 0,
+        "createName": "开发测试",
+        "fixedTelephone": "13",
+        "modifyNo": "200003",
+        "supplierType": "2",
+        "districtName": "9",
+        "districtCode": "8",
+        "address": "10",
+        "isBlacklist": 0,
+        "linkDistrictName": "9",
+        "createNo": "200003"
+      }
+    ],
+    "pageIndex": 1
+  },
+  "code": "SUCCESS"
+}

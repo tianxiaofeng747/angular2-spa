@@ -1,0 +1,41 @@
+
+{
+  "code":"SUCCESS",
+  "message":"查询成功",
+  "data":{
+    "pageIndex":1,
+    "pageSize":10,
+    "pageCount":2,
+    "total":21,
+    "rows":[
+      {
+        "billNo":"order00001",
+        "warehouseName":"一号仓",
+        "senderName":"发货单位",
+        "supplierName":"供应商01",
+        "num":"33",
+        "amount":"2305.00",
+        "createName":"制单人",
+        "createTime":"制单时间",
+        "receiptTime":"2017-01-11",
+        "auditName":"复核人",
+        "auditTime":"复核时间",
+        "billStatusName":1
+      },
+      {
+        "billNo":"order00002",
+        "warehouseName":"er号仓",
+        "senderName":"发货单位",
+        "supplierName":"供应商01",
+        "num":"33",
+        "amount":"2305.00",
+        "createName":"制单人",
+        "createTime":"制单时间",
+        "receiptTime":"2017-01-11",
+        "auditName":"复核人",
+        "auditTime":"复核时间",
+        "billStatusName":2
+      }
+    ]
+  }
+}

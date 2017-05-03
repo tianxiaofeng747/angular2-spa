@@ -1,0 +1,40 @@
+{
+    "code": "0",
+    "message": "查询成功",
+    "data": [{
+        "id": 2,
+        "groupName": "默认分组",
+        "linkMan": "张三",
+        "linkTelephone": "15025932232",
+        "remark": "浙江沪包邮，其他地区20元/KG",
+        "count": "2"
+    }, {
+        "id": 2,
+        "groupName": "默认分组1",
+        "linkMan": "张三",
+        "linkTelephone": "15025932232",
+        "remark": "浙江沪包邮，其他地区20元/KG",
+        "count": "86"
+    }, {
+        "id": 2,
+        "groupName": "默认分组2",
+        "linkMan": "张三",
+        "linkTelephone": "15025932232",
+        "remark": "浙江沪包邮，其他地区20元/KG",
+        "count": "12"
+    }, {
+        "id": 2,
+        "groupName": "默认分组3",
+        "linkMan": "张三",
+        "linkTelephone": "15025932232",
+        "remark": "浙江沪包邮，其他地区20元/KG",
+        "count": "6"
+    }, {
+        "id": 2,
+        "groupName": "默认分组4",
+        "linkMan": "张三",
+        "linkTelephone": "15025932232",
+        "remark": "浙江沪包邮，其他地区20元/KG",
+        "count": "5"
+    }]
+}

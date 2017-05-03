@@ -1,0 +1,19 @@
+{
+  "code":"SUCCESS",
+  "message":"查询成功",
+  "data":{
+    "billNo":"revcive00001",
+    "billStatus":"1",
+    "createName":"创建人",
+    "createTime":"2016-10-12",
+    "auditName":"复核人",
+    "auditTime":"2016-01-12",
+    "senderName":"发货单位名称",
+    "warehouseName":"收货仓库",
+    "salerDeptName":"部门",
+    "salerName":"员工",
+    "receiveTime":"2016-10-16",
+    "amount":1200,
+    "comment":"备注"
+  }
+}

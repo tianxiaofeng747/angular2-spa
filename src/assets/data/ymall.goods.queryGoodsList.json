@@ -1,0 +1,45 @@
+{
+  "message": "SUCCESS",
+  "data": {
+    "total": 11,
+    "pageCount": 1,
+    "pageSize": 10,
+    "rows": [
+      {
+        "goodsNo": "001",
+        "goodsName": "板蓝根",
+        "productCategoryName": "冲剂",
+        "brandName": "蓝田",
+        "registerName": "国食药监械(许)字2007第1100029",
+        "articleNo": "989812",
+        "registerImg": "http:/001.png",
+        "auditStatus": 1,
+        "goodsSource": 1
+      },
+      {
+        "goodsNo": "001",
+        "goodsName": "板蓝根",
+        "productCategoryName": "冲剂",
+        "brandName": "蓝田",
+        "registerName": "国食药监械(许)字2007第1100029",
+        "articleNo": "989812",
+        "registerImg": "http:/001.png",
+        "auditStatus": 1,
+        "goodsSource": 1
+      },
+      {
+        "goodsNo": "001",
+        "goodsName": "感冒口服液",
+        "productCategoryName": "冲剂",
+        "brandName": "蓝田",
+        "registerName": "国食药监械(许)字2007第1100029",
+        "articleNo": "989812",
+        "registerImg": "http:/001.png",
+        "auditStatus": 1,
+        "goodsSource": 1
+      }
+    ],
+    "pageIndex": 1
+  },
+  "code": "SUCCESS"
+}

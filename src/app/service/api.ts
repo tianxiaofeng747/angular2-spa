@@ -10,8 +10,12 @@ export class Api {
     }
     post (params) {
         let url = params.url || '';
-        return this.http.get(url,params).toPromise().then(response => response.json().data)
-            .catch(this.handleError);
+        const DEV_MODE = 0; // 0 本地 1远程
+        if (DEV_MODE == 0) {
+            url = 'assets/data/' + url + '.json';
+            delete params.url;
+        }
+        return this.http.get(url,params).toPromise().then(response => response.json().data).catch(this.handleError);
     }
     private handleError(error: any): Promise<any> {
         console.error('An error occurred', error); // for demo purposes only

@@ -1,7 +1,22 @@
+<table class="table">
+    <tr>
+        <td>商品名称：</td>
+        <td>{{detail?.goodsName}}</td>
+        <td>品牌</td>
+        <td>{{detail?.senderName}}</td>
+    </tr>
+    <tr>
+        <td>注册证号</td>
+        <td>{{detail?.certNo}}</td>
+        <td>数量</td>
+        <td>{{detail.goodsNumber}}</td>
+    </tr>
+</table>
+
 <ul>
     <li *ngFor="let item of list">
-        <span>{{ item.brandName}}</span>
-        <span class="red">
+        <a class="btn btn-link" routerLink="../detail/{{item.brandNo}}" routerLinkActive="active">{{ item.brandName}}</a>
+        <span class="text-danger">
             {{item.brandNo}}
         </span>
     </li>

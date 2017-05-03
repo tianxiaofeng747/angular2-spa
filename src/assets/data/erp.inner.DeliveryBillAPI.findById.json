@@ -1,0 +1,20 @@
+{
+  "code":"SUCCESS",
+  "message":"查询成功",
+  "data":{
+    "billNo":"return00001",
+    "sourceBillNo":"12222222",
+    "warehouseName":"一号仓",
+    "receiverName":"收货单位",
+    "address":"收货地址",
+    "amount":"1000",
+    "comment":"备注",
+    "expressCompanyName":"物流公司",
+    "expressNo":"物流单号",
+    "billStatusName":"单据状态",
+    "auditName":"制单人",
+    "auditName":"2017-01-01",
+    "auditName":"发货人",
+    "auditTime":"2017-01-01"
+  }
+}

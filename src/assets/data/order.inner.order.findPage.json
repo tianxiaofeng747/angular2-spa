@@ -1,0 +1,44 @@
+{
+  "code":"SUCCESS",
+  "message":"查询成功",
+  "data":{
+    "total":2550,
+    "pageSize":30,
+    "pageIndex":1,
+    "pageCount":1,
+    "rows":[
+      {
+        "id": 1,
+        "billNo": "123123123",
+        "sourceBillNo": "123123123",
+        "orderSource": 2,
+        "customerName": "张三",
+        "orderTime": "2015-09-09",
+        "consignee": "老王",
+        "billStatus": 5,
+        "amount": "29898.00",
+        "createName": "李四",
+        "createTime": "2016-09-09",
+        "orderType": 0,
+        "cancelComment": "客户黑名单",
+        "closeComment": "客户黑名单"
+      },
+      {
+        "id": 2,
+        "billNo": "2322324432",
+        "sourceBillNo": "5667565655",
+        "orderSource": 2,
+        "customerName": "张三",
+        "orderTime": "2015-09-09",
+        "consignee": "老王",
+        "billStatus": 6,
+        "amount": "29898.00",
+        "createName": "李四",
+        "createTime": "2016-09-09",
+        "orderType": 0,
+        "cancelComment": "客户黑名单",
+        "closeComment": "客户黑名单"
+      }
+    ]
+  }
+}

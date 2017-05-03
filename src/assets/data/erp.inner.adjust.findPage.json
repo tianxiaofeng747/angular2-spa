@@ -1,0 +1,23 @@
+{
+  "code":"SUCCESS",
+  "message":"查询成功",
+  "data":{
+    "pageIndex":1,
+    "pageSize":10,
+    "pageCount":2,
+    "total":21,
+    "rows":[
+      {
+        "billNo":"wh000001",
+        "warehouseNo":"5241234234",
+        "warehouseName":"杭州仓",
+        "createNo":"0001",
+        "createName":"张三",
+        "createTime":"2016-02-19",
+        "auditName":"张三",
+        "auditTime":"2016-02-20",
+        "billStatus":4
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+<div class="container">
+    <div >
+        <h1>用户登录</h1>
+        <form (ngSubmit)="onSubmit()" #heroForm="ngForm">
+            <div class="form-group">
+                <label for="name">用户名</label>
+                <input type="text" class="form-control" id="name" required [(ngModel)]="model.name" name="name" #name="ngModel">
+                <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+                    此选项必填
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="alterEgo">密码</label>
+                <input type="text" class="form-control" id="alterEgo" [(ngModel)]="model.password" name="alterEgo">
+            </div>
+            <button type="submit" class="btn btn-success" [disabled]="!heroForm.form.valid">提交</button>
+        </form>
+    </div>
+
+</div>

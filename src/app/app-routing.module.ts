@@ -1,33 +1,38 @@
 import {NgModule}             from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {HeroComponent}      from './component/hero.component';
-import {HeroFormComponent}      from './component/hero-form/hero-form.component';
-import {HeroDetailComponentComponent}      from './component/hero-detail-component/hero-detail-component.component';
-import {HeroSonComponent}      from './component/hero-son/hero-son.component';
-import {HeroSon2Component}      from './component/hero-son2/hero-son2.component';
+import {HeroComponent}      from './component/hero/hero.component';
+import {DashboardComponent}      from './component/dashboard/dashboard.component';
+
 import {HeroListComponent} from './component/hero-list/hero-list.component';
+import {AuthComponent} from './component/auth/auth.component';
+import {HeroDetailComponent} from "./component/hero-detail/hero-detail.component";
+
 
 const routes: Routes = [
-    {path: '', redirectTo: '/dashboard', pathMatch: 'full'},
-    {path: 'dashboard', component: HeroListComponent},
+    {path: '', redirectTo: '/auth', pathMatch: 'full'},
+    {path: 'auth', component: AuthComponent},
     {
-        path: 'heroadd', component: HeroComponent,
+        path: 'dashboard',
+        component: DashboardComponent,
         children: [
             {
-                path:'test01',
-                component: HeroSonComponent
+                path:'list',
+                component: HeroListComponent
             },
             {
-                path:'test02',
-                component: HeroSon2Component
+                path:'detail/:id',
+                component: HeroDetailComponent
             },
+            {
+                path: 'hero', component: HeroComponent,
+            },
+            {
+                path:'contact',
+                loadChildren: 'app/contact/contact.module.3#ContactModule' //懒加载
+            }
         ]
     },
-    {path: 'herofrom', component: HeroFormComponent},
-    {
-        path: 'hero/detail/:id', component: HeroDetailComponentComponent,
 
-    }
 ];
 @NgModule({
     imports: [RouterModule.forRoot(routes)],

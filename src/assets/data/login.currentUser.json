@@ -1,0 +1,16 @@
+{
+  "code":"SUCCESS",
+  "data":{
+    "appRoles":{
+      "YSCM_Supplier":"云供应链供应商端（不要删_Supplier）"
+    },
+    "enterpriseName":"基因工程B",
+    "enterpriseNo":"6016106021",
+    "enterpriseStatus":"audited",
+    "isMaster":true,
+    "token":"d421cd001873432b523d8a8a10b129de",
+    "userName":"基因工程B-管理员2",
+    "userNo":"501610101020",
+    "userType":"2"
+  }
+}

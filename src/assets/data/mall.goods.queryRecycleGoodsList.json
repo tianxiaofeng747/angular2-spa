@@ -1,0 +1,36 @@
+{
+  "message": "SUCCESS",
+  "data": {
+    "total": 1,
+    "pageCount": 1,
+    "pageSize": 10,
+    "rows": [
+      {
+        "auditStatus": 0,
+        "articleNo": "23782731233",
+        "enterpriseCategoryName": "检测设备",
+        "productCategoryName": "设备",
+        "registerCode": "国药械准字第201540826号",
+        "goodsNo": "701737",
+        "registerImg": "111.png",
+        "brandName": "三星制药",
+        "goodsName": "雌二醇定标液",
+        "goodsSource": 1
+      },
+      {
+        "auditStatus": 0,
+        "articleNo": "23782731233",
+        "enterpriseCategoryName": "检测设备",
+        "productCategoryName": "设备",
+        "registerCode": "国药械准字第201540826号",
+        "goodsNo": "701737",
+        "registerImg": "111.png",
+        "brandName": "三星制药",
+        "goodsName": "雌二醇定标液",
+        "goodsSource": 1
+      }
+    ],
+    "pageIndex": 1
+  },
+  "code": "SUCCESS"
+}
