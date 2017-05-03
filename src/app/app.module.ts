@@ -11,10 +11,10 @@ import { HeroListComponent } from './component/hero-list/hero-list.component';
 import { UserService }    from './service/user.service';
 import {Api} from './service/api';
 
-import { ContactModule }      from './contact/contact.module.3';
 import { AuthComponent } from './component/auth/auth.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { HeroDetailComponent } from './component/hero-detail/hero-detail.component';
+import { HeroSonComponent } from './component/hero-son/hero-son.component';
 
 @NgModule({
     declarations: [
@@ -23,11 +23,11 @@ import { HeroDetailComponent } from './component/hero-detail/hero-detail.compone
         HeroListComponent,
         AuthComponent,
         DashboardComponent,
-        HeroDetailComponent
+        HeroDetailComponent,
+        HeroSonComponent
     ],
     imports: [
         BrowserModule,
-        ContactModule,
         FormsModule,
         HttpModule,
         AppRoutingModule

@@ -24,7 +24,11 @@ const routes: Routes = [
                 component: HeroDetailComponent
             },
             {
-                path: 'heroadd', component: HeroComponent,
+                path: 'hero', component: HeroComponent,
+            },
+            {
+                path:'contact',
+                loadChildren: 'app/contact/contact.module.3#ContactModule' //懒加载
             }
         ]
     },

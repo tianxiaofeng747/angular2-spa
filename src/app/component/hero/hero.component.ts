@@ -1,18 +1,31 @@
-import {Component, Input, EventEmitter, Output} from '@angular/core';
+import {Component} from '@angular/core';
 import {Router, ActivatedRoute} from '@angular/router';
 @Component({
     selector: 'hero',
     templateUrl: './hero.component.html'
 })
 export class HeroComponent {
-    title = '我是子组件';
+    title = `<a href="javascript:void(0)">点击我</a>`;
     isShow: boolean = false;
-    @Input() list: Array<Object>;
-    //自定义事件 可以使用别名
-    @Output() deleteRequest = new EventEmitter<Object>();
-    delete = function (obj, id) {
-        this.deleteRequest.emit(obj, id);
-    }
+
+
+
+    heroList:Array<Object> = [{
+        id:1,
+        name:'侯亮平'
+    },{
+        id:2,
+        name:'李达康'
+    },{
+        id:3,
+        name:'祈同伟'
+    }];
+    delete = function (obj) {
+        let id = obj.id;
+        this.heroList = this.heroList.filter(function (item) {
+            return item.id != id;
+        });
+    };
     show = function () {
         this.isShow = !this.isShow;
     };
@@ -22,6 +35,7 @@ export class HeroComponent {
 
     //跳转路由
     gotoUrl = () => {
-        this.router.navigate(['../hero/detail', 15], {relativeTo: this.route});
+        console.log('exec')
+        this.router.navigate(['../list'], {relativeTo: this.route});
     }
 }
