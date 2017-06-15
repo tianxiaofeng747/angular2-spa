@@ -1,4 +1,4 @@
-<p>
+<!--<p>
     ========================== </p>
 <pre>
     <p [innerHTML]="title"></p>
@@ -16,7 +16,14 @@
 
 <h3>父子组件通信</h3>
 
-<app-hero-son [list]="heroList" (deleteRequest)="delete($event)"></app-hero-son>
+<app-hero-son [list]="heroList" (deleteRequest)="delete($event)"></app-hero-son>-->
 
 <!--<button class="btn" on-click="gotoUrl()">跳转到其他路由</button>-->
+
+
+<div id="slide_contain">
+    <ul id="slide_box" [ngStyle]="myStyle" >
+        <li class="slide_pic" *ngFor="let item of bannerList" [ngStyle]="{'width': 100/bannerList.length +'%'}"><img [src]="item.src"/></li>
+    </ul>
+</div>
 
