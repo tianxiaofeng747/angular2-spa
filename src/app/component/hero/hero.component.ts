@@ -1,5 +1,9 @@
-import { Component } from '@angular/core';
+import { Component,ElementRef, ViewChild,  } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
+interface Style {
+    marginLeft?;
+    width?;
+}
 @Component({
     selector: 'hero',
     styleUrls: ['./hero.component.less'],
@@ -8,19 +12,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 export class HeroComponent {
     title = `<a href="javascript:void(0)">点击我</a>`;
     isShow: boolean = false;
-
-
-
-    heroList: Array<Object> = [{
-        id: 1,
-        name: '侯亮平'
-    }, {
-        id: 2,
-        name: '李达康'
-    }, {
-        id: 3,
-        name: '祈同伟'
-    }];
+   
     delete = function (obj) {
         let id = obj.id;
         this.heroList = this.heroList.filter(function (item) {
@@ -40,8 +32,8 @@ export class HeroComponent {
         this.router.navigate(['../list'], { relativeTo: this.route });
     };
 
-    myStyle: any = {
-        marginLeft: 0
+    myStyle:Style={
+
     };
     bannerList: Array<Object> = [
         {
@@ -56,10 +48,13 @@ export class HeroComponent {
         {
             src: '../assets/images/4.jpg'
         }
-    ]
+    ];
+    @ViewChild('container')
+    container: ElementRef;
+
+    timer;
     ngAfterViewInit() {
-        console.log(this)
-        let containWidth = document.getElementById('slide_contain').offsetWidth,
+        let containWidth = this.container.nativeElement.offsetWidth,
             current = 0,
             self = this, move = () => {
                 current++;
@@ -70,9 +65,16 @@ export class HeroComponent {
                     self.myStyle.marginLeft = 0;
                     current = 0;
                 }
-                setTimeout(move, 4000);
+                self.timer = setTimeout(move, 4000);
             };        
         self.myStyle.width = self.bannerList.length * 100 + '%';
-        setTimeout(move, 4000)
+        self.timer = setTimeout(move, 4000)
+    }
+    stop(){
+        clearTimeout(this.timer);
+        this.timer = null;
+    }
+    start(){
+        !this.timer && this.ngAfterViewInit();
     }
 }

@@ -21,9 +21,11 @@
 <!--<button class="btn" on-click="gotoUrl()">跳转到其他路由</button>-->
 
 
-<div id="slide_contain">
+<div id="slide_contain" #container>
     <ul id="slide_box" [ngStyle]="myStyle" >
         <li class="slide_pic" *ngFor="let item of bannerList" [ngStyle]="{'width': 100/bannerList.length +'%'}"><img [src]="item.src"/></li>
     </ul>
 </div>
+<button class="btn" (click)="stop($event)">stop</button>
+<button class="btn" (click)="start($event)">start</button>
 
