@@ -1,31 +1,4 @@
-<!--<p>
-    ========================== </p>
-<pre>
-    <p [innerHTML]="title"></p>
-</pre>
+<input type="textg" #container/>
+<input type="textg" #tizhong/>
 
-为了提高性能， 可以使用追踪函数
-<pre>
-    trackBy:trackByHeroes
-</pre><p>
-    ========================== </p>
-
-<p *ngIf="isShow">
-    我是隐藏文本 通过 *ngIf = "isShow" 控制显示 </p>
-<button class="btn" on-click="show()">{{isShow ? '隐藏' : '显示' }}</button>
-
-<h3>父子组件通信</h3>
-
-<app-hero-son [list]="heroList" (deleteRequest)="delete($event)"></app-hero-son>-->
-
-<!--<button class="btn" on-click="gotoUrl()">跳转到其他路由</button>-->
-
-
-<div id="slide_contain" #container>
-    <ul id="slide_box" [ngStyle]="myStyle" >
-        <li class="slide_pic" *ngFor="let item of bannerList" [ngStyle]="{'width': 100/bannerList.length +'%'}"><img [src]="item.src"/></li>
-    </ul>
-</div>
-<button class="btn" (click)="stop($event)">stop</button>
-<button class="btn" (click)="start($event)">start</button>
 

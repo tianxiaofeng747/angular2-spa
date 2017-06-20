@@ -4,27 +4,20 @@ interface Style {
     marginLeft?;
     width?;
 }
+
+import { Observable,Subscription } from 'rxjs';
+import 'rxjs/add/operator/catch';
+import 'rxjs/add/operator/filter';
+import 'rxjs/add/operator/map';
+
 @Component({
     selector: 'hero',
     styleUrls: ['./hero.component.less'],
     templateUrl: './hero.component.html'
 })
 export class HeroComponent {
-    title = `<a href="javascript:void(0)">点击我</a>`;
-    isShow: boolean = false;
-   
-    delete = function (obj) {
-        let id = obj.id;
-        this.heroList = this.heroList.filter(function (item) {
-            return item.id != id;
-        });
-    };
-    show = function () {
-        this.isShow = !this.isShow;
-    };
 
-    constructor(private router: Router, private route: ActivatedRoute) {
-    }
+
 
     //跳转路由
     gotoUrl = () => {
@@ -32,49 +25,32 @@ export class HeroComponent {
         this.router.navigate(['../list'], { relativeTo: this.route });
     };
 
-    myStyle:Style={
-
-    };
-    bannerList: Array<Object> = [
-        {
-            src: '../assets/images/1.jpg'
-        },
-        {
-            src: '../assets/images/2.jpg'
-        },
-        {
-            src: '../assets/images/3.jpg'
-        },
-        {
-            src: '../assets/images/4.jpg'
-        }
-    ];
     @ViewChild('container')
     container: ElementRef;
+    @ViewChild('tizhong')
+    tizhong: ElementRef;
 
-    timer;
-    ngAfterViewInit() {
-        let containWidth = this.container.nativeElement.offsetWidth,
-            current = 0,
-            self = this, move = () => {
-                current++;
-                if (current < self.bannerList.length) {
-                    self.myStyle.marginLeft = -containWidth * current + 'px';
-                }
-                else {
-                    self.myStyle.marginLeft = 0;
-                    current = 0;
-                }
-                self.timer = setTimeout(move, 4000);
-            };        
-        self.myStyle.width = self.bannerList.length * 100 + '%';
-        self.timer = setTimeout(move, 4000)
+    constructor(private router: Router, private route: ActivatedRoute) {
+
     }
-    stop(){
-        clearTimeout(this.timer);
-        this.timer = null;
+    ngOnInit (){
+        let men = Observable.create(function (observer) {
+            observer.next(1);
+            observer.next(2);
+            observer.next(3);
+            setTimeout(() => {
+                observer.next(4);
+                observer.complete();
+            }, 1000);
+        }).subscribe((next) => console.log(next) ,(err) => console.log(err), complete => console.log('完成'));
+
+
+
+
+        /*Observable.zip(men,women,(w:any, h:any)=>{
+            return [w,h]
+        }).take(3).subscribe(value => console.log(value))*/
     }
-    start(){
-        !this.timer && this.ngAfterViewInit();
-    }
+
+
 }
