@@ -5,11 +5,6 @@ interface Style {
     width?;
 }
 
-import { Observable,Subscription } from 'rxjs';
-import 'rxjs/add/operator/catch';
-import 'rxjs/add/operator/filter';
-import 'rxjs/add/operator/map';
-
 @Component({
     selector: 'hero',
     styleUrls: ['./hero.component.less'],
@@ -34,7 +29,7 @@ export class HeroComponent {
 
     }
     ngOnInit (){
-        let men = Observable.create(function (observer) {
+        /*let men = Observable.create(function (observer) {
             observer.next(1);
             observer.next(2);
             observer.next(3);
@@ -42,11 +37,10 @@ export class HeroComponent {
                 observer.next(4);
                 observer.complete();
             }, 1000);
-        }).subscribe((next) => console.log(next) ,(err) => console.log(err), complete => console.log('完成'));
+        }).subscribe((next) => console.log(next) ,(err) => console.log(err), complete => console.log('完成'));*/
 
 
-
-
+       
         /*Observable.zip(men,women,(w:any, h:any)=>{
             return [w,h]
         }).take(3).subscribe(value => console.log(value))*/
