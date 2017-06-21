@@ -28,6 +28,7 @@ export class HeroComponent {
     constructor(private router: Router, private route: ActivatedRoute) {
 
     }
+
     ngOnInit (){
         /*let men = Observable.create(function (observer) {
             observer.next(1);

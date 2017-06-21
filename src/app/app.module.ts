@@ -16,6 +16,7 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { HeroDetailComponent } from './component/hero-detail/hero-detail.component';
 import { HeroSonComponent } from './component/hero-son/hero-son.component';
 import { DeroRelativeComponent } from './component/dero-relative/dero-relative.component';
+import { HeroSunComponent } from './component/hero-sun/hero-sun.component';
 
 @NgModule({
     declarations: [
@@ -26,7 +27,8 @@ import { DeroRelativeComponent } from './component/dero-relative/dero-relative.c
         DashboardComponent,
         HeroDetailComponent,
         HeroSonComponent,
-        DeroRelativeComponent
+        DeroRelativeComponent,
+        HeroSunComponent
     ],
     imports: [
         BrowserModule,
