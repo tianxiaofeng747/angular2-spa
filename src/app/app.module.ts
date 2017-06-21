@@ -18,6 +18,7 @@ import { HeroSonComponent } from './component/hero-son/hero-son.component';
 import { DeroRelativeComponent } from './component/dero-relative/dero-relative.component';
 import { HeroSunComponent } from './component/hero-sun/hero-sun.component';
 
+
 @NgModule({
     declarations: [
         AppComponent,
