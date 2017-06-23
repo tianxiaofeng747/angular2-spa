@@ -1,3 +1,4 @@
+<!--
 <span *ngIf="isVisible">你说显示就显示</span>
 <app-hero-sun >孙子节点</app-hero-sun>
 <ul>
@@ -6,4 +7,17 @@
         <span [innerHTML]="item?.name"></span>
         <button class="btn btn-link" on-click="delete(item)">删除</button>
     </li>
+</ul>-->
+
+
+<!--树节点-->
+<ul>
+    <li *ngFor="let item of list">
+        <input type="checkbox" [(ngModel)]="item.checked"/> <a  href="javascript:void(0)" (click)="toggle(item)">{{item.name}}</a>
+        <ng-container *ngTemplateOutlet="greet; context: item" ></ng-container>
+    </li>
 </ul>
+<ng-template #greet let-children="children" let-hide="hide">
+    <app-hero-son [list]="children" *ngIf="children" [ngClass]="{'hide': hide}"></app-hero-son>
+</ng-template>
+

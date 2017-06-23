@@ -1,0 +1,26 @@
+<div class="dropdown">
+    <input type="text" class="form-control" [id]="option.id" [name]="option.id" [title]="option.title" readonly (click)="toggle()">
+    <div class="toggle-dropdown" [ngClass]="{'hide': !isVisbled }">
+        <div class="ui-tips-body">
+            <ul class="ui-tips">
+                <li *ngFor="let item of list" (click)="showChecked(item)">
+                    <div class="ui-tips-item">{{item[option.name]}}</div>
+                </li>
+            </ul>
+        </div>
+        <div class="ui-tips-footer tableoptions">
+            <div class="ui-tips-pager pagination">
+
+            </div>
+            <div class="ui-tips-search form-inline">
+                <input type="text" class="form-control" name="tips-keyword" [(ngModel)]="option.keywords"/>
+                <button class="btn btn-primary" name="tips-search" (click)="searchData()">搜索</button>
+                <button class="btn btn-default" name="tips-close">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ng-template>
+
+</ng-template>

@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit,Input} from '@angular/core';
 
 @Component({
     selector: 'app-hero-sun',
@@ -9,6 +9,9 @@ export class HeroSunComponent implements OnInit {
     constructor() {
     }
 
+    myContext = {$implicit: 'World', localSk: 'Svet'};
+
+    @Input()list:Array<Object>;
     ngOnInit() {
     }
 

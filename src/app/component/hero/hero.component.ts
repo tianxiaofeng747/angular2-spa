@@ -1,4 +1,4 @@
-import { Component,ElementRef, ViewChild,  } from '@angular/core';
+import {Component, ElementRef, Input, ViewChild,} from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 interface Style {
     marginLeft?;
@@ -12,8 +12,6 @@ interface Style {
 })
 export class HeroComponent {
 
-
-
     //跳转路由
     gotoUrl = () => {
         console.log('exec')
@@ -22,13 +20,59 @@ export class HeroComponent {
 
     @ViewChild('container')
     container: ElementRef;
-    @ViewChild('tizhong')
-    tizhong: ElementRef;
+    list:Array<Object> = [
+        {
+            name: '北京',
+            id:1,
+            children: [
+                {
+                    name: '朝阳区',
+                    id:1.1,
+                    children: [
+                        {
+                            name: '三里屯',
+                            id:'1.1.1'
+                        }
+                    ]
+                },
+                {
+                    name: '石景山区',
+                    id:1.2,
+                },
+                {
+                    name: '大兴区',
+                    id:1.3,
+                }
+            ]
+        },
+        {
+            name: '河北',
+            id:2 ,
+            children:[
+                {
+                    name: '沧州',
+                    id:2.1,
+                },
+                {
+                    name: '石家庄',
+                    id:2.2,
+                }
+            ]
+        }
+    ];
 
     constructor(private router: Router, private route: ActivatedRoute) {
 
     }
+    getChecked(){
+        console.log(this.list);
+    }
 
+    options:any = {
+        url: 'scm.productAuthorize.queryBasicRegistList',
+        name: 'certIssuedNo',
+        keywords:'123'
+    };
     ngOnInit (){
         /*let men = Observable.create(function (observer) {
             observer.next(1);

@@ -17,6 +17,7 @@ import { HeroDetailComponent } from './component/hero-detail/hero-detail.compone
 import { HeroSonComponent } from './component/hero-son/hero-son.component';
 import { DeroRelativeComponent } from './component/dero-relative/dero-relative.component';
 import { HeroSunComponent } from './component/hero-sun/hero-sun.component';
+import { SearchPaginationComponent } from './component/search-pagination/search-pagination.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { HeroSunComponent } from './component/hero-sun/hero-sun.component';
         HeroDetailComponent,
         HeroSonComponent,
         DeroRelativeComponent,
-        HeroSunComponent
+        HeroSunComponent,
+        SearchPaginationComponent
     ],
     imports: [
         BrowserModule,
