@@ -60,7 +60,9 @@ export class HeroComponent {
             ]
         }
     ];
-
+    myForm:any = {
+        value:''
+    };
     constructor(private router: Router, private route: ActivatedRoute) {
 
     }
@@ -70,9 +72,27 @@ export class HeroComponent {
 
     options:any = {
         url: 'scm.productAuthorize.queryBasicRegistList',
-        name: 'certIssuedNo',
+        name: function (item) {
+            var isAuth = '';
+            switch (item.isAuth) {
+                case 0:
+                    isAuth = '<span class="text-danger">未认证</span>';
+                    break;
+                case 1:
+                    isAuth = '<span class="text-success">已认证</span>';
+                    break;
+                case 2:
+                    isAuth = '<span class="text-info">认证中</span>';
+                    break;
+            }
+            return item.productName + '(' + item.certIssuedNo + ')' + isAuth;
+        },
+        value : 'certIssuedNo',
         keywords:'123'
     };
+    getValue(){
+        alert(this.myForm.value)
+    }
     ngOnInit (){
         /*let men = Observable.create(function (observer) {
             observer.next(1);

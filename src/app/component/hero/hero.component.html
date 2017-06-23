@@ -4,5 +4,8 @@
 <!--<app-hero-son [isVisible]="true" (deleteRequest)="emitDel($event)"></app-hero-son>-->
 <app-hero-son [list]="list"></app-hero-son>
 
-<app-search-pagination [option]="options"></app-search-pagination>
+<app-search-pagination [option]="options" [(value)]="myForm.value"></app-search-pagination>
+
+
+<button class="btn btn-primary" (click)="getValue()">get</button>
 
