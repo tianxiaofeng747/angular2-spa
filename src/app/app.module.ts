@@ -1,6 +1,6 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-import {FormsModule} from '@angular/forms';
+import {FormsModule , ReactiveFormsModule } from '@angular/forms';
 import {HttpModule} from '@angular/http';
 
 
@@ -15,6 +15,10 @@ import { AuthComponent } from './component/auth/auth.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { HeroDetailComponent } from './component/hero-detail/hero-detail.component';
 import { HeroSonComponent } from './component/hero-son/hero-son.component';
+import { DeroRelativeComponent } from './component/dero-relative/dero-relative.component';
+import { HeroSunComponent } from './component/hero-sun/hero-sun.component';
+import { SearchPaginationComponent } from './component/search-pagination/search-pagination.component';
+
 
 @NgModule({
     declarations: [
@@ -24,11 +28,15 @@ import { HeroSonComponent } from './component/hero-son/hero-son.component';
         AuthComponent,
         DashboardComponent,
         HeroDetailComponent,
-        HeroSonComponent
+        HeroSonComponent,
+        DeroRelativeComponent,
+        HeroSunComponent,
+        SearchPaginationComponent
     ],
     imports: [
         BrowserModule,
         FormsModule,
+        ReactiveFormsModule,
         HttpModule,
         AppRoutingModule
     ],

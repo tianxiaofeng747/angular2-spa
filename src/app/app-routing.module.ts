@@ -6,7 +6,7 @@ import {DashboardComponent}      from './component/dashboard/dashboard.component
 import {HeroListComponent} from './component/hero-list/hero-list.component';
 import {AuthComponent} from './component/auth/auth.component';
 import {HeroDetailComponent} from "./component/hero-detail/hero-detail.component";
-
+import { DeroRelativeComponent } from './component/dero-relative/dero-relative.component';
 
 const routes: Routes = [
     {path: '', redirectTo: '/auth', pathMatch: 'full'},
@@ -22,6 +22,10 @@ const routes: Routes = [
             {
                 path:'detail/:id',
                 component: HeroDetailComponent
+            },
+            {
+                path:'relative',
+                component: DeroRelativeComponent
             },
             {
                 path: 'hero', component: HeroComponent,

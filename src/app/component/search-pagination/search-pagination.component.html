@@ -1,0 +1,27 @@
+<div class="dropdown" #ele>
+    <input type="text" class="form-control" [id]="option.id"  [(ngModel)]="checkedEle" [name]="option.id" [title]="option.title" readonly (click)="toggle()">
+    <div class="toggle-dropdown" [ngClass]="{'hide': !isVisbled }">
+        <div class="ui-tips-body">
+            <ul class="ui-tips">
+                <li *ngFor="let item of list" (click)="showChecked(item)">
+                    <div class="ui-tips-item" [innerHtml]="getEleName(item)"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="ui-tips-footer">
+            <div class="tips-pager pull-left" >
+                <nav>
+                    <ul class="pager">
+                        <li class="previous" [ngClass]="{'disabled' : pager.pageIndex == 1 }"><a href="javascript:void(0)" (click)="changePage('prev')"><span aria-hidden="true">&larr;</span> 上一页</a></li>
+                        <li class="next" [ngClass]="{'disabled' : pager.pageIndex == pager.pageTotal }"><a href="javascript:void(0)" (click)="changePage('next')">下一页 <span aria-hidden="true">&rarr;</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class=" ui-tips-search form-inline">
+                <input type="text" class="form-control" name="tips-keyword" [(ngModel)]="option.keywords"/>
+                <button class="btn btn-primary" name="tips-search" (click)="searchData()">搜索</button>
+                <button class="btn btn-default" name="tips-close" (click)="toggle()">取消</button>
+            </div>
+        </div>
+    </div>
+</div>

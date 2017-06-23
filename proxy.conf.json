@@ -1,0 +1,7 @@
+{
+  "/gateway": {
+    "target": "http://scms.dev.cloudyigou.com",
+    "secure": false
+
+  }
+}

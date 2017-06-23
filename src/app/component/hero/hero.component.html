@@ -1,22 +1,11 @@
-<p>
-    ========================== </p>
-<pre>
-    <p [innerHTML]="title"></p>
-</pre>
+<input type="textg" #container/>
 
-为了提高性能， 可以使用追踪函数
-<pre>
-    trackBy:trackByHeroes
-</pre><p>
-    ========================== </p>
 
-<p *ngIf="isShow">
-    我是隐藏文本 通过 *ngIf = "isShow" 控制显示 </p>
-<button class="btn" on-click="show()">{{isShow ? '隐藏' : '显示' }}</button>
+<!--<app-hero-son [isVisible]="true" (deleteRequest)="emitDel($event)"></app-hero-son>-->
+<app-hero-son [list]="list"></app-hero-son>
 
-<h3>父子组件通信</h3>
+<app-search-pagination [option]="options" [(value)]="myForm.value"></app-search-pagination>
 
-<app-hero-son [list]="heroList" (deleteRequest)="delete($event)"></app-hero-son>
 
-<!--<button class="btn" on-click="gotoUrl()">跳转到其他路由</button>-->
+<button class="btn btn-primary" (click)="getValue()">get</button>
 

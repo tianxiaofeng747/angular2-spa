@@ -14,7 +14,7 @@ export class HeroListComponent implements OnInit {
   }
   list:Array<Object> = [];
   detail:Object = {
-      
+
   };
 
   //实验async的异步调用
@@ -24,7 +24,7 @@ export class HeroListComponent implements OnInit {
       this.getAll().then((result) =>{
           this.list = this.list.concat(result[0].rows);
           this.detail = result[1];
-    
+
       });
   }
   getList () {
